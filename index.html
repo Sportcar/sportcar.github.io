@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../css/login.css" />
+	</head>
+	<body>
+		<div class="content">
+			<div class="mian">
+				<div class="login">
+					<h2 class="biao">登录</h2>
+					<form action="logincheck.php" method="post">
+						<div class="name">
+							<p class="login_1">账号:</p>
+							<input type="text" name="login_username" id="login_username" placeholder="请输入账号" style="height: 30px;" />
+						</div>
+						<div class="pwd">
+							<p class="pwd_1">密码:</p>
+							<input type="password" name="login_pwd" id="login_pwd" placeholder="请输入密码" style="height: 30px;" />
+						</div>
+						<p class="on"><a href="register.php">立即注册</a></p>
+						<p class="off"><a href="javascript:;">忘记密码</a></p>
+						<input type="submit" value="登录" id="log" name="submit" style="width: 145px;"/>
+					</form>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
